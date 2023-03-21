@@ -8,7 +8,7 @@ workbook = openpyxl.load_workbook(excel_file)
 worksheet = workbook.active
 
 # Set up the Streamlit app
-st.title("Learner Marks Lookup")
+st.title("TEGNIESE WETENSKAPPE MAART 2023")
 
 # Add input fields for name and password
 name = st.text_input("Name:")
@@ -26,7 +26,7 @@ if st.button("Submit"):
     if match is not None:
         # Display the learner's mark
         mark = match[2].value
-        st.success(f"Your mark is {mark}.")
+        st.success(f"JY HET {mark} BEHAAL.")
     else:
         # Display an error message if the name and password don't match any rows
         st.error("Invalid name or password.")
