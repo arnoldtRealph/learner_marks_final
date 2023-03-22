@@ -36,7 +36,7 @@ with st.container():
     st.write("---")
 
 st.title("Geluk aan die volgende Graad 12 leerders!")
-st.subheader("Hulle het die beste gevaar in die Maart Toets:")
-st.header(" 1. Shashmica Springbok 2. Gerath Du Raan 3. Elmar Eiman")
-st.write("Julle maak my trots. Hou so aan!")
+st.header("Hulle het die beste gevaar in die Maart Toets:")
+st.subheader(" 1. Shashmica Springbok 2. Gerath Du Raan 3. Renico Strauss  4. Elmar Eiman")
+st.subheader("Julle maak my trots. Hou so aan!")
 
