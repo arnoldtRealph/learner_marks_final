@@ -1,6 +1,7 @@
 import openpyxl
 import streamlit as st
 
+st.set_page_config(page_title= "My Webpage", page_icon=":tada:", layout= "wide")
 # Load the data
 
 excel_file = "student_marks.xlsx"
@@ -30,4 +31,12 @@ if st.button("Submit"):
     else:
         # Display an error message if the name and password don't match any rows
         st.error("Invalid name or password.")
+
+with st.container():
+    st.write("---")
+
+st.title("Geluk aan die volgende Graad 12 leerders!")
+st.subheader("Hulle het die beste gevaar in die Maart Toets:")
+st.header(" 1. Shashmica Springbok 2. Gerath Du Raan 3. Elmar Eiman")
+st.write("Julle maak my trots. Hou so aan!")
 
